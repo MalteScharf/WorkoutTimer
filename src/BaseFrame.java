@@ -12,7 +12,7 @@ public class BaseFrame extends Frame {
         }
 
         addWindowListener(new ClosingObserver());
-        setSize(300,400);
+        setSize(200,200);
         setLocationRelativeTo(null);
 
     }
